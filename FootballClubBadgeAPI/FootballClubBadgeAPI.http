@@ -1,0 +1,6 @@
+@FootballClubBadgeAPI_HostAddress = http://localhost:5181
+
+GET {{FootballClubBadgeAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
