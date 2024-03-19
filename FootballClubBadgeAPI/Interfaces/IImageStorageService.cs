@@ -3,9 +3,9 @@
     public interface IImageStorageService
     {
 
-        public FileStream? GetTeamBadgePng(string team);
+        public byte[]? GetTeamBadgePng(string team);
 
 
-        public string[] GetTeamBadgeFilenames();
+        public string?[] GetTeamBadgeFilenames();
     }
 }
