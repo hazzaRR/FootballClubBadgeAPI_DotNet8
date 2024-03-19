@@ -4,5 +4,8 @@
     {
 
         public FileStream? GetTeamBadgePng(string team);
+
+
+        public string[] GetTeamBadgeFilenames();
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FootballClubBadgeAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22f6ddbdbd8d9339c7fa60eacd033d467422677b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e2cef14702d21eb3343a1a3ebfc2eff3e2036df")]
 [assembly: System.Reflection.AssemblyProductAttribute("FootballClubBadgeAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FootballClubBadgeAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

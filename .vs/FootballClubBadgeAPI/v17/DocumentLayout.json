@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\redma\\Documents\\Coding Projects\\C#\\FootballClubBadgeAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38A49924-D333-46AD-A187-A5FAA28F7E34}|FootballClubBadgeAPI\\FootballClubBadgeAPI.csproj|c:\\users\\redma\\documents\\coding projects\\c#\\footballclubbadgeapi\\footballclubbadgeapi\\controllers\\badgecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A49924-D333-46AD-A187-A5FAA28F7E34}|FootballClubBadgeAPI\\FootballClubBadgeAPI.csproj|solutionrelative:footballclubbadgeapi\\controllers\\badgecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{38A49924-D333-46AD-A187-A5FAA28F7E34}|FootballClubBadgeAPI\\FootballClubBadgeAPI.csproj|c:\\users\\redma\\documents\\coding projects\\c#\\footballclubbadgeapi\\footballclubbadgeapi\\services\\localimagestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38A49924-D333-46AD-A187-A5FAA28F7E34}|FootballClubBadgeAPI\\FootballClubBadgeAPI.csproj|solutionrelative:footballclubbadgeapi\\services\\localimagestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A49924-D333-46AD-A187-A5FAA28F7E34}|FootballClubBadgeAPI\\FootballClubBadgeAPI.csproj|c:\\users\\redma\\documents\\coding projects\\c#\\footballclubbadgeapi\\footballclubbadgeapi\\controllers\\badgecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A49924-D333-46AD-A187-A5FAA28F7E34}|FootballClubBadgeAPI\\FootballClubBadgeAPI.csproj|solutionrelative:footballclubbadgeapi\\controllers\\badgecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38A49924-D333-46AD-A187-A5FAA28F7E34}|FootballClubBadgeAPI\\FootballClubBadgeAPI.csproj|c:\\users\\redma\\documents\\coding projects\\c#\\footballclubbadgeapi\\footballclubbadgeapi\\interfaces\\iimagestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "FootballClubBadgeAPI\\Interfaces\\IImageStorageService.cs",
               "ToolTip": "C:\\Users\\redma\\Documents\\Coding Projects\\C#\\FootballClubBadgeAPI\\FootballClubBadgeAPI\\Interfaces\\IImageStorageService.cs",
               "RelativeToolTip": "FootballClubBadgeAPI\\Interfaces\\IImageStorageService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-19T13:54:18.509Z",
               "EditorCaption": ""
@@ -91,26 +91,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BadgeController.cs",
               "DocumentMoniker": "C:\\Users\\redma\\Documents\\Coding Projects\\C#\\FootballClubBadgeAPI\\FootballClubBadgeAPI\\Controllers\\BadgeController.cs",
               "RelativeDocumentMoniker": "FootballClubBadgeAPI\\Controllers\\BadgeController.cs",
               "ToolTip": "C:\\Users\\redma\\Documents\\Coding Projects\\C#\\FootballClubBadgeAPI\\FootballClubBadgeAPI\\Controllers\\BadgeController.cs",
               "RelativeToolTip": "FootballClubBadgeAPI\\Controllers\\BadgeController.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABcAAAAAAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAqwBsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-15T14:58:57.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LocalImageStorageService.cs",
               "DocumentMoniker": "C:\\Users\\redma\\Documents\\Coding Projects\\C#\\FootballClubBadgeAPI\\FootballClubBadgeAPI\\Services\\LocalImageStorageService.cs",
               "RelativeDocumentMoniker": "FootballClubBadgeAPI\\Services\\LocalImageStorageService.cs",
               "ToolTip": "C:\\Users\\redma\\Documents\\Coding Projects\\C#\\FootballClubBadgeAPI\\FootballClubBadgeAPI\\Services\\LocalImageStorageService.cs",
               "RelativeToolTip": "FootballClubBadgeAPI\\Services\\LocalImageStorageService.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBYAAAANAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-19T13:55:55.69Z",
               "EditorCaption": ""

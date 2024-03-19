@@ -17,6 +17,18 @@ namespace FootballClubBadgeAPI.Controllers
             _imageStorageService = imageStorageService;
         }
 
+        [HttpGet("teams")]
+        public IActionResult GetTeams()
+        {
+            var teams = _imageStorageService.GetTeamBadgeFilenames();
+
+            if (teams == null)
+            {
+                return NotFound();
+            }
+            return Ok(teams);
+        }
+
         [HttpGet("{team}")]
         public IActionResult GetClubBadge([FromRoute] string team)
         {
@@ -28,5 +40,6 @@ namespace FootballClubBadgeAPI.Controllers
             }
             return File(clubBadge, "image/png");
         }
+
     }
 }
