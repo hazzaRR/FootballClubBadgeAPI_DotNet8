@@ -17,10 +17,15 @@ namespace FootballClubBadgeAPI.Controllers
         }
 
         [HttpGet("{team}")]
-        public byte[] GetClubBadge([FromRoute] string team)
+        public async Task<IActionResult> GetClubBadge([FromRoute] string team)
         {
-            _imageStorageService.GetTeamBadgePng(team);
-            return new byte[0];
+            var clubBadge = await _imageStorageService.GetTeamBadgePng(team);
+
+            if (clubBadge == null)
+            {
+                return NotFound();
+            }
+            return Ok(clubBadge);
         }
     }
 }
