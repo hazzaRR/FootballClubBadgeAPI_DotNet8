@@ -6,16 +6,34 @@ namespace FootballClubBadgeAPI.Services
 
     {
 
-        private readonly IWebHostEnvironment _env;
+        private readonly string _rootPath;
 
         public LocalImageStorageService(IWebHostEnvironment env)
         {
-            _env = env;
+            _rootPath = env.ContentRootPath;
         }
-        public Task<byte[]> GetTeamBadgePng(string team)
+        public FileStream? GetTeamBadgePng(string team)
         {
+            Console.WriteLine(_rootPath);
+            string assetsPath = Path.Combine(_rootPath, "Assets", "Images", "Badges");
+            string imagePath = Path.Combine(assetsPath, $"{team}.png");
 
-            throw new NotImplementedException();
+
+            try
+            {
+                FileStream imageFile = File.OpenRead(imagePath);
+
+                return imageFile;
+
+            } catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                return null;
+            }
+
+
+      
+
         }
     }
 }

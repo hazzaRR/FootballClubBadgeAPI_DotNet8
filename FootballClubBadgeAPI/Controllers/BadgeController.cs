@@ -1,6 +1,7 @@
 ﻿using FootballClubBadgeAPI.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.IO;
 
 namespace FootballClubBadgeAPI.Controllers
 {
@@ -17,15 +18,15 @@ namespace FootballClubBadgeAPI.Controllers
         }
 
         [HttpGet("{team}")]
-        public async Task<IActionResult> GetClubBadge([FromRoute] string team)
+        public IActionResult GetClubBadge([FromRoute] string team)
         {
-            var clubBadge = await _imageStorageService.GetTeamBadgePng(team);
+            var clubBadge = _imageStorageService.GetTeamBadgePng(team);
 
             if (clubBadge == null)
             {
-                return NotFound();
+                return NotFound($"A file for the team name: {team} does not exist");
             }
-            return Ok(clubBadge);
+            return File(clubBadge, "image/png");
         }
     }
 }
