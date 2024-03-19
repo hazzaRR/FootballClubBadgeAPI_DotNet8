@@ -7,5 +7,11 @@ namespace FootballClubBadgeAPI.Controllers
     [ApiController]
     public class BadgeController : ControllerBase
     {
+
+        [HttpGet("{team}")]
+        public byte[] GetClubBadge([FromRoute] string team)
+        {
+            return new byte[0];
+        }
     }
 }
