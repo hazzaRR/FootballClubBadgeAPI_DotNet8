@@ -20,7 +20,7 @@ namespace FootballClubBadgeAPI.Controllers
         [HttpGet("teams")]
         public IActionResult GetTeams()
         {
-            var teams = _imageStorageService.GetTeamBadgeFilenames();
+            var teams = _imageStorageService.GetTeamBadgeFilenamesAsync();
 
             if (teams == null)
             {

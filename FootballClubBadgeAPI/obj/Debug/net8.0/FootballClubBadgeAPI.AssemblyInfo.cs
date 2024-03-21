@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("eed018f6-0c76-420e-b459-8ab096f2d227")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("FootballClubBadgeAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a54cd0164a6a185088259ab7836e421491a34691")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b1212150ce4d8b5cafd15d0b0300e33c5dcaf32")]
 [assembly: System.Reflection.AssemblyProductAttribute("FootballClubBadgeAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FootballClubBadgeAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

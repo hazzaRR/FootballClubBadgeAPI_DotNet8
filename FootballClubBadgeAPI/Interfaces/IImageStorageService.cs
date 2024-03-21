@@ -6,6 +6,6 @@
         public byte[]? GetTeamBadgePng(string team);
 
 
-        public string?[] GetTeamBadgeFilenames();
+        public string?[] GetTeamBadgeFilenamesAsync();
     }
 }

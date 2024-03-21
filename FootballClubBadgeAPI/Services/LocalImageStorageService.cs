@@ -13,7 +13,7 @@ namespace FootballClubBadgeAPI.Services
             _rootPath = env.ContentRootPath;
         }
 
-        public string?[] GetTeamBadgeFilenames()
+        public string?[] GetTeamBadgeFilenamesAsync()
         {
 
             string assetsPath = Path.Combine(_rootPath, "Assets", "Images", "Badges");
