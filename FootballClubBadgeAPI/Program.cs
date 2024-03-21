@@ -1,5 +1,7 @@
+using Azure.Storage.Blobs;
 using FootballClubBadgeAPI.Interfaces;
 using FootballClubBadgeAPI.Services;
+using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +13,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
+builder.Services.AddSingleton(x => new BlobServiceClient(builder.Configuration["AzureStorageConnectionString"]));
 builder.Services.AddScoped<IImageStorageService, LocalImageStorageService>();
 
 var app = builder.Build();
