@@ -7,14 +7,24 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+string? connectionString = builder.Configuration["AzureStorage:ConnectionString"];
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
-builder.Services.AddSingleton(x => new BlobServiceClient(builder.Configuration["AzureStorageConnectionString"]));
-builder.Services.AddScoped<IImageStorageService, LocalImageStorageService>();
+if (builder.Environment.IsDevelopment())
+{
+    builder.Services.AddScoped<IImageStorageService, LocalImageStorageService>();
+}
+else
+{
+    builder.Services.AddSingleton(x => new BlobServiceClient(connectionString));
+    builder.Services.AddScoped<IImageStorageService, AzureImageStorageService>();
+}
+
 
 var app = builder.Build();
 
@@ -24,6 +34,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 
 app.UseHttpsRedirection();
 
