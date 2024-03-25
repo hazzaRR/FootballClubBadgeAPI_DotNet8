@@ -24,7 +24,7 @@ namespace FootballClubBadgeAPI.Services
             var blobs = new List<string>();
             foreach (BlobItem blobItem in _containerClient.GetBlobs())
             {
-                blobs.Add(blobItem.Name);
+                blobs.Add(Path.GetFileNameWithoutExtension(blobItem.Name));
             }
 
             return blobs.ToArray();
