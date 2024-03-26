@@ -3,7 +3,7 @@
     public interface IImageStorageService
     {
 
-        public Task<byte[]> GetTeamBadgePng(string team);
+        public Task<byte[]?> GetTeamBadgePng(string team);
 
 
         public string?[] GetTeamBadgeFilenamesAsync();

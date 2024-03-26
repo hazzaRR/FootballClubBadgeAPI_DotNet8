@@ -30,7 +30,7 @@ namespace FootballClubBadgeAPI.Services
             return blobs.ToArray();
         }
 
-        public async Task<byte[]> GetTeamBadgePng(string team)
+        public async Task<byte[]?> GetTeamBadgePng(string team)
         {
             BlobClient blobClient = _containerClient.GetBlobClient($"{team}.png");
 
@@ -43,7 +43,7 @@ namespace FootballClubBadgeAPI.Services
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex);
+                    Console.WriteLine("this got here");
                     return null;
                 }
 

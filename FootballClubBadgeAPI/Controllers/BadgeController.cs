@@ -31,9 +31,9 @@ namespace FootballClubBadgeAPI.Controllers
         }
 
         [HttpGet("{team}")]
-        public IActionResult GetClubBadge([FromRoute] string team)
+        public async Task<IActionResult> GetClubBadge([FromRoute] string team)
         {
-            var clubBadge = _imageStorageService.GetTeamBadgePng(team.ToTitleCase()).Result;
+            var clubBadge = await _imageStorageService.GetTeamBadgePng(team.ToTitleCase());
 
             if (clubBadge == null)
             {
