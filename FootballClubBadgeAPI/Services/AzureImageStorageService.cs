@@ -32,7 +32,21 @@ namespace FootballClubBadgeAPI.Services
 
         public byte[]? GetTeamBadgePng(string team)
         {
-            throw new NotImplementedException();
+            BlobClient blobClient = _containerClient.GetBlobClient($"{team}.png");
+
+
+            try
+            {
+                BlobDownloadResult downloadResult = blobClient.DownloadContent();
+                byte[] blobContents = downloadResult.Content.ToArray();
+                return blobContents;
+
+            } catch (Exception ex)
+            {
+                return null;
+            }
+
+
         }
     }
 }

@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\redma\\Documents\\Coding Projects\\C#\\FootballClubBadgeAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{38A49924-D333-46AD-A187-A5FAA28F7E34}|FootballClubBadgeAPI\\FootballClubBadgeAPI.csproj|c:\\users\\redma\\documents\\coding projects\\c#\\footballclubbadgeapi\\footballclubbadgeapi\\services\\azureimagestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A49924-D333-46AD-A187-A5FAA28F7E34}|FootballClubBadgeAPI\\FootballClubBadgeAPI.csproj|solutionrelative:footballclubbadgeapi\\services\\azureimagestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{38A49924-D333-46AD-A187-A5FAA28F7E34}|FootballClubBadgeAPI\\FootballClubBadgeAPI.csproj|c:\\users\\redma\\documents\\coding projects\\c#\\footballclubbadgeapi\\footballclubbadgeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38A49924-D333-46AD-A187-A5FAA28F7E34}|FootballClubBadgeAPI\\FootballClubBadgeAPI.csproj|solutionrelative:footballclubbadgeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38A49924-D333-46AD-A187-A5FAA28F7E34}|FootballClubBadgeAPI\\FootballClubBadgeAPI.csproj|c:\\users\\redma\\documents\\coding projects\\c#\\footballclubbadgeapi\\footballclubbadgeapi\\services\\azureimagestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A49924-D333-46AD-A187-A5FAA28F7E34}|FootballClubBadgeAPI\\FootballClubBadgeAPI.csproj|solutionrelative:footballclubbadgeapi\\services\\azureimagestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38A49924-D333-46AD-A187-A5FAA28F7E34}|FootballClubBadgeAPI\\FootballClubBadgeAPI.csproj|c:\\users\\redma\\documents\\coding projects\\c#\\footballclubbadgeapi\\footballclubbadgeapi\\controllers\\badgecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A49924-D333-46AD-A187-A5FAA28F7E34}|FootballClubBadgeAPI\\FootballClubBadgeAPI.csproj|solutionrelative:footballclubbadgeapi\\controllers\\badgecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38A49924-D333-46AD-A187-A5FAA28F7E34}|FootballClubBadgeAPI\\FootballClubBadgeAPI.csproj|c:\\users\\redma\\documents\\coding projects\\c#\\footballclubbadgeapi\\footballclubbadgeapi\\footballclubbadgeapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -32,10 +36,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{38A49924-D333-46AD-A187-A5FAA28F7E34}|FootballClubBadgeAPI\\FootballClubBadgeAPI.csproj|c:\\users\\redma\\documents\\coding projects\\c#\\footballclubbadgeapi\\footballclubbadgeapi\\interfaces\\iimagestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38A49924-D333-46AD-A187-A5FAA28F7E34}|FootballClubBadgeAPI\\FootballClubBadgeAPI.csproj|solutionrelative:footballclubbadgeapi\\interfaces\\iimagestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A49924-D333-46AD-A187-A5FAA28F7E34}|FootballClubBadgeAPI\\FootballClubBadgeAPI.csproj|c:\\users\\redma\\documents\\coding projects\\c#\\footballclubbadgeapi\\footballclubbadgeapi\\controllers\\badgecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A49924-D333-46AD-A187-A5FAA28F7E34}|FootballClubBadgeAPI\\FootballClubBadgeAPI.csproj|solutionrelative:footballclubbadgeapi\\controllers\\badgecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,28 +45,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FootballClubBadgeAPI.http",
-              "DocumentMoniker": "C:\\Users\\redma\\Documents\\Coding Projects\\C#\\FootballClubBadgeAPI\\FootballClubBadgeAPI\\FootballClubBadgeAPI.http",
-              "RelativeDocumentMoniker": "FootballClubBadgeAPI\\FootballClubBadgeAPI.http",
-              "ToolTip": "C:\\Users\\redma\\Documents\\Coding Projects\\C#\\FootballClubBadgeAPI\\FootballClubBadgeAPI\\FootballClubBadgeAPI.http",
-              "RelativeToolTip": "FootballClubBadgeAPI\\FootballClubBadgeAPI.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-03-25T21:26:06.708Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\redma\\Documents\\Coding Projects\\C#\\FootballClubBadgeAPI\\FootballClubBadgeAPI\\appsettings.json",
               "RelativeDocumentMoniker": "FootballClubBadgeAPI\\appsettings.json",
@@ -74,25 +61,24 @@
               "RelativeToolTip": "FootballClubBadgeAPI\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-25T21:20:40.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T21:20:40.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AzureImageStorageService.cs",
               "DocumentMoniker": "C:\\Users\\redma\\Documents\\Coding Projects\\C#\\FootballClubBadgeAPI\\FootballClubBadgeAPI\\Services\\AzureImageStorageService.cs",
               "RelativeDocumentMoniker": "FootballClubBadgeAPI\\Services\\AzureImageStorageService.cs",
-              "ToolTip": "C:\\Users\\redma\\Documents\\Coding Projects\\C#\\FootballClubBadgeAPI\\FootballClubBadgeAPI\\Services\\AzureImageStorageService.cs",
-              "RelativeToolTip": "FootballClubBadgeAPI\\Services\\AzureImageStorageService.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAcwBoAAABKAAAA",
+              "ToolTip": "C:\\Users\\redma\\Documents\\Coding Projects\\C#\\FootballClubBadgeAPI\\FootballClubBadgeAPI\\Services\\AzureImageStorageService.cs*",
+              "RelativeToolTip": "FootballClubBadgeAPI\\Services\\AzureImageStorageService.cs*",
+              "ViewState": "AQIAABwAAAAAAAAAAAAuwCoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T19:19:22.614Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\redma\\Documents\\Coding Projects\\C#\\FootballClubBadgeAPI\\FootballClubBadgeAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "FootballClubBadgeAPI\\Properties\\launchSettings.json",
@@ -100,37 +86,37 @@
               "RelativeToolTip": "FootballClubBadgeAPI\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACQAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-19T13:35:29.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T13:35:29.34Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\redma\\Documents\\Coding Projects\\C#\\FootballClubBadgeAPI\\FootballClubBadgeAPI\\Program.cs",
               "RelativeDocumentMoniker": "FootballClubBadgeAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\redma\\Documents\\Coding Projects\\C#\\FootballClubBadgeAPI\\FootballClubBadgeAPI\\Program.cs*",
-              "RelativeToolTip": "FootballClubBadgeAPI\\Program.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ToolTip": "C:\\Users\\redma\\Documents\\Coding Projects\\C#\\FootballClubBadgeAPI\\FootballClubBadgeAPI\\Program.cs",
+              "RelativeToolTip": "FootballClubBadgeAPI\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-15T15:01:32.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "BadgeController.cs",
               "DocumentMoniker": "C:\\Users\\redma\\Documents\\Coding Projects\\C#\\FootballClubBadgeAPI\\FootballClubBadgeAPI\\Controllers\\BadgeController.cs",
               "RelativeDocumentMoniker": "FootballClubBadgeAPI\\Controllers\\BadgeController.cs",
               "ToolTip": "C:\\Users\\redma\\Documents\\Coding Projects\\C#\\FootballClubBadgeAPI\\FootballClubBadgeAPI\\Controllers\\BadgeController.cs",
               "RelativeToolTip": "FootballClubBadgeAPI\\Controllers\\BadgeController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAxwCAAAABCAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACAAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T14:58:57.146Z"
+              "WhenOpened": "2024-03-15T14:58:57.146Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "LocalImageStorageService.cs",
               "DocumentMoniker": "C:\\Users\\redma\\Documents\\Coding Projects\\C#\\FootballClubBadgeAPI\\FootballClubBadgeAPI\\Services\\LocalImageStorageService.cs",
               "RelativeDocumentMoniker": "FootballClubBadgeAPI\\Services\\LocalImageStorageService.cs",
@@ -138,12 +124,23 @@
               "RelativeToolTip": "FootballClubBadgeAPI\\Services\\LocalImageStorageService.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T13:55:55.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T13:55:55.69Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
+              "Title": "FootballClubBadgeAPI.http",
+              "DocumentMoniker": "C:\\Users\\redma\\Documents\\Coding Projects\\C#\\FootballClubBadgeAPI\\FootballClubBadgeAPI\\FootballClubBadgeAPI.http",
+              "RelativeDocumentMoniker": "FootballClubBadgeAPI\\FootballClubBadgeAPI.http",
+              "ToolTip": "C:\\Users\\redma\\Documents\\Coding Projects\\C#\\FootballClubBadgeAPI\\FootballClubBadgeAPI\\FootballClubBadgeAPI.http",
+              "RelativeToolTip": "FootballClubBadgeAPI\\FootballClubBadgeAPI.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-03-25T21:26:06.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IImageStorageService.cs",
               "DocumentMoniker": "C:\\Users\\redma\\Documents\\Coding Projects\\C#\\FootballClubBadgeAPI\\FootballClubBadgeAPI\\Interfaces\\IImageStorageService.cs",
               "RelativeDocumentMoniker": "FootballClubBadgeAPI\\Interfaces\\IImageStorageService.cs",
@@ -155,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\redma\\AppData\\Roaming\\Microsoft\\UserSecrets\\eed018f6-0c76-420e-b459-8ab096f2d227\\secrets.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\eed018f6-0c76-420e-b459-8ab096f2d227\\secrets.json",
@@ -163,8 +160,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\eed018f6-0c76-420e-b459-8ab096f2d227\\secrets.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-25T20:47:23.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T20:47:23.114Z"
             }
           ]
         }
