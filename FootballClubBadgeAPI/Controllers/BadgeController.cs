@@ -1,4 +1,5 @@
 ﻿using FootballClubBadgeAPI.Interfaces;
+using FootballClubBadgeAPI.Utilities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.IO;
@@ -32,7 +33,7 @@ namespace FootballClubBadgeAPI.Controllers
         [HttpGet("{team}")]
         public IActionResult GetClubBadge([FromRoute] string team)
         {
-            var clubBadge = _imageStorageService.GetTeamBadgePng(team).Result;
+            var clubBadge = _imageStorageService.GetTeamBadgePng(team.ToTitleCase()).Result;
 
             if (clubBadge == null)
             {
