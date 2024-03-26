@@ -25,7 +25,7 @@ namespace FootballClubBadgeAPI.Services
             return teamNames;
         }
 
-        public byte[]? GetTeamBadgePng(string team)
+        public Task<byte[]> GetTeamBadgePng(string team)
         {
             Console.WriteLine(_rootPath);
             string assetsPath = Path.Combine(_rootPath, "Assets", "Images", "Badges");
@@ -36,7 +36,7 @@ namespace FootballClubBadgeAPI.Services
             {
                 byte[] imageFile = File.ReadAllBytes(imagePath);
 
-                return imageFile;
+                return Task.FromResult(imageFile);
 
             } catch (Exception ex)
             {

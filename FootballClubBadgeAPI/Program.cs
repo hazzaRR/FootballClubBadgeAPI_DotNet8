@@ -15,9 +15,16 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
+if (builder.Environment.IsDevelopment())
+{
+    builder.Services.AddScoped<IImageStorageService, LocalImageStorageService>();
+}
+else
+{
+    builder.Services.AddSingleton(x => new BlobServiceClient(connectionString));
+    builder.Services.AddScoped<IImageStorageService, AzureImageStorageService>();
+}
 
-builder.Services.AddSingleton(x => new BlobServiceClient(connectionString));
-builder.Services.AddScoped<IImageStorageService, AzureImageStorageService>();
 
 
 var app = builder.Build();

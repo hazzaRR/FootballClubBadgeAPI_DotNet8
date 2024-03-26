@@ -32,7 +32,7 @@ namespace FootballClubBadgeAPI.Controllers
         [HttpGet("{team}")]
         public IActionResult GetClubBadge([FromRoute] string team)
         {
-            var clubBadge = _imageStorageService.GetTeamBadgePng(team);
+            var clubBadge = _imageStorageService.GetTeamBadgePng(team).Result;
 
             if (clubBadge == null)
             {
