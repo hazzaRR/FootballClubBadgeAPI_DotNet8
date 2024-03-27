@@ -71,6 +71,33 @@ namespace FootballClubBadgeAPI.Tests
 
 
         }
+
+        [Fact]
+        public async void GetBadge_ReturnsFile()
+        {
+
+            //Arrange
+
+            string team = "Derby County";
+
+            _imageStorageService.Setup(service => service.GetTeamBadgePng(team))
+                .ReturnsAsync(new byte[] {1, 2});
+
+            //Act
+
+            var result = await _badgeController.GetClubBadge(team);
+
+            //Assert
+
+            Assert.IsType<FileContentResult>(result);
+            var okResult = result as FileContentResult;
+
+            Assert.NotNull(okResult);
+
+            //Assert.Equal(new byte[] { 1, 2 }, okResult);
+
+
+        }
     }
 
 
