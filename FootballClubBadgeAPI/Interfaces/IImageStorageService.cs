@@ -6,6 +6,6 @@
         public Task<byte[]?> GetTeamBadgePng(string team);
 
 
-        public string?[] GetTeamBadgeFilenamesAsync();
+        public string?[]? GetTeamBadgeFilenamesAsync();
     }
 }

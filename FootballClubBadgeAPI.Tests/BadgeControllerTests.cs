@@ -47,6 +47,31 @@ namespace FootballClubBadgeAPI.Tests
             Assert.Equal(new string[] { "Derby County", "Sheffield Wednesday" }, okResult.Value);
 
 
-        } 
+        }
+
+        [Fact]
+        public void GetTeams_ReturnsNotFound()
+        {
+
+            //Arrange
+
+            _imageStorageService.Setup(service => service.GetTeamBadgeFilenamesAsync())
+                .Returns(() => null);
+
+            //Act
+
+            var result = _badgeController.GetTeams();
+
+            //Assert
+
+            Assert.IsType<NotFoundResult>(result);
+            var notFoundResult = result as NotFoundResult;
+
+            Assert.NotNull(notFoundResult);
+
+
+        }
     }
+
+
 }

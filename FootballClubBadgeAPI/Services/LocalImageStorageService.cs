@@ -1,4 +1,5 @@
 ﻿using FootballClubBadgeAPI.Interfaces;
+using static System.Reflection.Metadata.BlobBuilder;
 
 namespace FootballClubBadgeAPI.Services
 {
@@ -13,14 +14,20 @@ namespace FootballClubBadgeAPI.Services
             _rootPath = env.ContentRootPath;
         }
 
-        public string?[] GetTeamBadgeFilenamesAsync()
+        public string?[]? GetTeamBadgeFilenamesAsync()
         {
 
             string assetsPath = Path.Combine(_rootPath, "Assets", "Images", "Badges");
             string[] fileArray = Directory.GetFiles(assetsPath, "*.png");
 
+            if (fileArray.Length == 0)
+            {
+                return null;
+            }
+
             //string[] teamNames1 = fileArray.Select(file => Path.GetFileName(file).Replace(".png", "")).ToArray(); 
             string?[] teamNames = fileArray.Select(Path.GetFileNameWithoutExtension).ToArray();
+
 
             return teamNames;
         }

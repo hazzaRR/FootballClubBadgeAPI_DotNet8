@@ -18,13 +18,18 @@ namespace FootballClubBadgeAPI.Services
 
         }
 
-        public string?[] GetTeamBadgeFilenamesAsync()
+        public string?[]? GetTeamBadgeFilenamesAsync()
 
         {
             var blobs = new List<string>();
             foreach (BlobItem blobItem in _containerClient.GetBlobs())
             {
                 blobs.Add(Path.GetFileNameWithoutExtension(blobItem.Name));
+            }
+
+            if (blobs.Count == 0)
+            {
+                return null;
             }
 
             return blobs.ToArray();
